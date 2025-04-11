@@ -1,0 +1,37 @@
+# University Admission Policy
+
+## Eligibility Criteria
+1. Minimum 75% marks in 12th standard (or equivalent)
+2. Acceptable streams: Science, Commerce, Arts
+3. Age limit: 17-25 years
+4. Valid ID proof and address verification
+
+## Required Documents
+1. Identity Proof (Aadhar Card/Passport/Driving License)
+2. 12th Standard Marksheet
+3. Passport size photograph
+4. Address Proof
+5. Character Certificate from previous institution
+
+## Application Process
+1. Fill the online application form
+2. Upload all required documents
+3. Pay application fee
+4. Await document verification
+5. Check shortlisting status
+6. If shortlisted, pay admission fee or apply for loan
+7. Receive admission letter
+
+## Important Dates
+- Application Opens: January 15, 2025
+- Application Closes: March 15, 2025
+- Document Verification: March 15-20, 2025
+- Shortlisting Results: March 25, 2025
+- Fee Payment Deadline: April 5, 2025
+- Classes Begin: April 15, 2025
+
+## Contact Information
+For queries related to admission:
+- Email: admissions@youruniversity.edu
+- Phone: +91-123-456-7890
+- Address: Admission Office, Your University, City, Pin Code

@@ -5,3 +5,4 @@ chromadb/
 .ipynb_checkpoints/
 *.log
 *.sqlite3
+venv/

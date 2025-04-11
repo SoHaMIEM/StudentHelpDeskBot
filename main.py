@@ -2,7 +2,7 @@
 
 import os
 from dotenv import load_dotenv
-from crew.crew_setup import student_admission_crew
+from crew.crew_setup import run_admission_crew
 from langchain.chat_models import ChatGoogleGenerativeAI
 
 # RAG: Document preprocessing & vector store setup
@@ -34,7 +34,8 @@ def main():
 
     # Step 3: Run CrewAI with agents and tasks
     print("\n🎓 Running the Student Admission Helpdesk system...\n")
-    student_admission_crew.run()
+    result = run_admission_crew()
+    print(f"Result: {result}")
 
 if __name__ == "__main__":
     main()
