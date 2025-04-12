@@ -8,6 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 # RAG: Document preprocessing & vector store setup
 from rag.document_loader import load_documents, split_documents
 from rag.vector_store import save_documents_to_vectorstore
+from llm_config import llm
 
 os.environ.pop("GOOGLE_APPLICATION_CREDENTIALS", None)
 
