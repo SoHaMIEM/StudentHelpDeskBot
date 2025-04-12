@@ -3,11 +3,13 @@
 import os
 from dotenv import load_dotenv
 from crew.crew_setup import run_admission_crew
-from langchain.chat_models import ChatGoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 # RAG: Document preprocessing & vector store setup
 from rag.document_loader import load_documents, split_documents
 from rag.vector_store import save_documents_to_vectorstore
+
+os.environ.pop("GOOGLE_APPLICATION_CREDENTIALS", None)
 
 def populate_chromadb():
     """Loads and embeds static documents into ChromaDB."""

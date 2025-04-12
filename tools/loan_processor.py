@@ -1,4 +1,5 @@
-# tools/loan_processor.py
+from typing import Dict
+from crewai.tools import BaseTool
 
 MAX_LOAN_AMOUNT = 100000  # INR
 MIN_PARENT_INCOME = 300000  # INR per year
@@ -20,3 +21,14 @@ def evaluate_loan_request(application: dict) -> dict:
         "status": status,
         "approved_amount": requested_amount if status == "Approved" else 0
     }
+
+# Tool class for evaluating loan requests
+class LoanEvaluatorTool(BaseTool):
+    name: str = "LoanEvaluator"
+    description: str = "Evaluates student loan applications and determines approval status."
+
+    def _run(self, application: Dict) -> Dict:
+        return evaluate_loan_request(application)
+
+# Instance to be used in tasks
+evaluate_loan_request_tool = LoanEvaluatorTool()

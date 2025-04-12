@@ -1,6 +1,6 @@
 # rag/document_loader.py
 import os
-from langchain.document_loaders import PyPDFLoader, TextLoader
+from langchain_community.document_loaders import PyPDFLoader, TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 def load_documents(data_dir="data/static_docs/"):
